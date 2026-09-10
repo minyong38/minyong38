@@ -7,7 +7,7 @@
 
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=180&section=header&text=Embedded%20AI%20Camera&fontColor=ffffff&fontSize=40&desc=Park%20MinYong&descSize=20&descAlignY=62)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=180&section=header&text=Embedded%20Developer&fontColor=ffffff&fontSize=40&desc=Park%20MinYong&descSize=20&descAlignY=62)
 
 [![Hits](https://myhits.vercel.app/api/hit/https%3A%2F%2Fgithub.com%2FYOUR_ID?color=blue&label=Hits&size=small)](https://myhits.vercel.app)
 
