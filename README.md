@@ -27,23 +27,6 @@
 
 <br>
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=minyong38&show_icons=true&theme=react&hide_border=true&bg_color=0D1117" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=minyong38&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
-
-<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=minyong38&theme=react-dark&hide_border=true&area=true" />
-
-<!-- 깃애니멀즈(동물 농장) 쓰려면 gitanimals.org 에서 깃허브 로그인 후 펫 하나 받고 주석 풀기
-<img width="500" src="https://render.gitanimals.org/lines/minyong38" />
--->
-
-</div>
-
-<br>
-
 ## ⚙️ Skills
 
 ##### ▫️ Language
