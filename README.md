@@ -27,6 +27,23 @@
 
 <br>
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=minyong38&show_icons=true&theme=react&hide_border=true&bg_color=0D1117" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=minyong38&layout=compact&theme=react&hide_border=true&bg_color=0D1117" />
+
+<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=minyong38&theme=react-dark&hide_border=true&area=true" />
+
+<!-- 깃애니멀즈(동물 농장) 쓰려면 gitanimals.org 에서 깃허브 로그인 후 펫 하나 받고 주석 풀기
+<img width="500" src="https://render.gitanimals.org/lines/minyong38" />
+-->
+
+</div>
+
+<br>
+
 ## ⚙️ Skills
 
 ##### ▫️ Language
@@ -96,17 +113,38 @@
 >
 > ##### GitHub - Repository ▶ <a href="https://github.com/VEDA-4-Final-Project/daboyijo">`daboyijo`</a>
 
-#### 🔥 ESP32 Fire Detector
+#### 📡 [VEDA_RTSP](https://github.com/minyong38/VEDA_RTSP) — RTSP/RTP 스택 맨바닥부터 구현하기
 >
-> ##### 간략소개 : ESP32 기반 화재 감지 센서 노드와 수집 서버
+> ##### 간략소개 : 미디어 라이브러리를 일절 쓰지 않고, POSIX 소켓과 RFC 문서만으로 RTSP 시그널링부터 RTP 패킷화까지 직접 구현한 프로젝트. 영상 스트리밍을 "가져다 쓰는 것"에서 "바이트 단위로 이해하는 것"으로 넘어가려고 시작했습니다.
+>
+> ##### 담당업무 : 개인 프로젝트 (설계 · 구현 전체)
+>
+> **직접 만든 것들**
+> - 📨 **RTSP 1.0 요청 파싱 / 응답 생성** — OPTIONS·DESCRIBE·SETUP·PLAY·TEARDOWN 전 구간
+> - 📄 **SDP 생성** — DESCRIBE 응답용 세션 기술자 직접 조립
+> - 📦 **RTP 헤더 구성 (RFC 3550)** 및 **H.264 FU-A 프래그멘테이션** — NAL 유닛을 MTU에 맞춰 분할
+> - 🔁 **세션 상태 머신** — 잘못된 순서의 요청에 455 / 454 정확히 응답
+> - ⚡ **epoll 기반 다중 클라이언트 동시 접속** 처리
+> - 🎥 파일 소스 / 카메라 소스 양쪽 지원, **ffplay·VLC 등 표준 클라이언트로 TCP·UDP 재생 검증**
+>
+> ##### Language : `C++17` · `CMake` · POSIX (Linux/macOS)
+>
+> ##### GitHub - Repository ▶ <a href="https://github.com/minyong38/VEDA_RTSP">`VEDA_RTSP`</a>
+
+#### 🔥 [ESP32 Fire Detector Server](https://github.com/minyong38/esp32-fire-detector-server) — 센서 수집 서버
+>
+> ##### 간략소개 : ESP32 센서 노드가 올려보내는 온도·습도·기압 데이터를 받아 MySQL에 적재하는 Flask 수집 서버. 화재 감지 시스템의 "센서에서 데이터베이스까지" 구간을 직접 붙여본 프로젝트입니다.
+>
+> ##### 담당업무 : 개인 프로젝트 (서버 · DB 설계)
+>
+> **구현 내용**
+> - 🌐 **REST API 설계** — 데이터 수집(`POST /data`), 페이지네이션 조회(`GET /data`), 최신값(`GET /latest`), 통계(`GET /stats`)
+> - 🗄️ **MySQL 스키마 설계** — 정규화된 센서 컬럼 + 원본 페이로드를 `JSON` 컬럼에 함께 보관해 스키마 변경에 유연하게 대응
+> - ⚙️ 환경변수 기반 설정 분리 및 DB 초기화 스크립트 제공
+>
+> ##### Language : `Python` · `Flask` · `MySQL`
 >
 > ##### GitHub - Repository ▶ <a href="https://github.com/minyong38/esp32-fire-detector-server">`Server`</a>
-
-#### 📡 VEDA_RTSP
->
-> ##### 간략소개 : RTSP 스트리밍 프로토콜 직접 구현 사이드 프로젝트
->
-> ##### GitHub - Repository ▶ <a href="https://github.com/minyong38/VEDA_RTSP">`Project`</a>
 
 <br>
 
